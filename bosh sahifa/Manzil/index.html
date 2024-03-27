@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meat name="author" content="Karimova Sevinch" />
+    <meta
+      name="keywords"
+      content="Kompyuter Akademiyasi /uzbekistan It /Dasturlash Kurslari"
+    />
+    <meta
+      name="discription"
+      content=" Kompyuter Akademiyasi Html ,Css and JavaScript site"
+    />
+    <!-- github or typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/telegram?f=brands&s=solid"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/instagram?f=brands&s=solid"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/facebook?f=brands&s=solid"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/bars?f=classic&s=solid"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/photo_5407033667689239386_x.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/play?f=sharp&s=solid"
+    />
+    <!--typed  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./jamoa.css" />
+    <title>Kompyuter Akademiyasi</title>
+  </head>
+  <body>
+    <style>
+      :root {
+        --mnclr: #8a2be2;
+      }
+      .dark-mode {
+        --mnclr: #d1abf5;
+      }
+      .manzilmap {
+        width: 700px;
+        height: 400px;
+      }
+    </style>
+    <!-- class="dark-mode" ** -->
+    <div class="cotainer">
+      <div class="wrapper">
+        <div
+          class="box_header wdth__all"
+          style="
+            background-image: url('../images/kompyuter.png');
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="header_naw wdth__all">
+            <header class="header widhtAll">
+              <div class="dflex header__container widhtAll all">
+                <div class="log">
+                  <a class="site-logo" href="./index.html">
+                    <img
+                      src="../images/svg/gor-org-write-1536x285.png"
+                      height="200"
+                      width="200"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="maria">
+                  <p align="center" style="color: rgb(255, 204, 0)">
+                    Tel: +998 (99) 072-08-08
+                  </p>
+                </div>
+
+                <div class="basic dflex">
+                  <button class="btn" id="dark-btn">
+                    <svg
+                      class="svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="40"
+                      width="40"
+                    >
+                      <path
+                        d="M21.25 22.042Zm.583 16.458h-4.75l.584-.5q.583-.5 1.271-1.083.687-.584 1.25-1.084l.562-.5h1.167q3.791 0 7.041-2.125 3.25-2.125 5.125-5.375-3.625-.375-6.937-1.812-3.313-1.438-5.896-3.979-2.583-2.584-4-5.875-1.417-3.292-1.792-6.917-3.291 1.917-5.354 5.083-2.062 3.167-2.104 7v.396q0 .229.042.396l-.48.187q-.479.188-1.062.396-.583.209-1.062.396l-.48.188q-.083-.5-.104-.938-.021-.437-.021-.854 0-6.167 3.959-10.875 3.958-4.708 10.041-5.833-.666 4.125.5 8.083 1.167 3.958 4.167 6.958 2.958 2.959 6.917 4.125 3.958 1.167 8.125.542-1.084 6.125-5.813 10.062Q28 38.5 21.833 38.5ZM10 35.333h7.5q1.208 0 2.042-.833.833-.833.833-2 0-1.208-.813-2.042-.812-.833-1.979-.833h-1.916l-.75-1.792q-.625-1.458-1.959-2.333-1.333-.875-2.916-.875-2.25 0-3.834 1.563-1.583 1.562-1.583 3.77 0 2.25 1.563 3.813Q7.75 35.333 10 35.333Zm0 3.167q-3.542 0-6.042-2.5t-2.5-6.042q0-3.541 2.5-6.02 2.5-2.48 6.042-2.48 2.542 0 4.625 1.354 2.083 1.355 3.125 3.646 2.417.125 4.104 1.854 1.688 1.73 1.688 4.146 0 2.5-1.771 4.271T17.5 38.5Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                  </button>
+                  <button id="light-btn" class="btn hidden">
+                    <svg
+                      class="svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="40"
+                      width="40"
+                    >
+                      <path
+                        d="M20 25.167q2.167 0 3.667-1.5t1.5-3.667q0-2.167-1.5-3.667T20 14.833q-2.167 0-3.667 1.5T14.833 20q0 2.167 1.5 3.667t3.667 1.5Zm0 3.166q-3.458 0-5.896-2.437-2.437-2.438-2.437-5.896 0-3.458 2.437-5.896 2.438-2.437 5.896-2.437 3.458 0 5.896 2.437 2.437 2.438 2.437 5.896 0 3.458-2.437 5.896-2.438 2.437-5.896 2.437Zm-16.958-6.75q-.667 0-1.125-.458-.459-.458-.459-1.125t.459-1.125q.458-.458 1.125-.458h3.916q.667 0 1.125.458.459.458.459 1.125t-.459 1.125q-.458.458-1.125.458Zm30 0q-.667 0-1.125-.458-.459-.458-.459-1.125t.459-1.125q.458-.458 1.125-.458h3.916q.667 0 1.125.458.459.458.459 1.125t-.459 1.125q-.458.458-1.125.458ZM20 8.542q-.667 0-1.125-.459-.458-.458-.458-1.125V3.042q0-.667.458-1.125.458-.459 1.125-.459t1.125.459q.458.458.458 1.125v3.916q0 .667-.458 1.125-.458.459-1.125.459Zm0 30q-.667 0-1.125-.459-.458-.458-.458-1.125v-3.916q0-.667.458-1.125.458-.459 1.125-.459t1.125.459q.458.458.458 1.125v3.916q0 .667-.458 1.125-.458.459-1.125.459ZM9.667 11.875 7.5 9.75q-.5-.458-.479-1.125.021-.667.479-1.125.458-.5 1.125-.5t1.125.5l2.125 2.167q.458.458.458 1.104 0 .646-.458 1.104-.417.458-1.063.458-.645 0-1.145-.458ZM30.25 32.5l-2.125-2.167q-.458-.458-.458-1.104 0-.646.458-1.104.458-.5 1.083-.479.625.021 1.125.479L32.5 30.25q.5.458.479 1.125-.021.667-.479 1.125-.458.5-1.125.5t-1.125-.5Zm-2.125-20.625q-.5-.458-.479-1.083.021-.625.479-1.125L30.25 7.5q.458-.5 1.125-.479.667.021 1.125.479.5.458.5 1.125t-.5 1.125l-2.167 2.125q-.458.458-1.104.458-.646 0-1.104-.458ZM7.5 32.5q-.5-.458-.5-1.125t.5-1.125l2.167-2.125q.458-.458 1.104-.458.646 0 1.104.458.5.458.479 1.083-.021.625-.479 1.125L9.75 32.5q-.458.5-1.125.479-.667-.021-1.125-.479ZM20 20Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                  </button>
+
+                  <div class="icon center dflex">
+                    <a
+                      class="epmloyer center"
+                      href="https://www.facebook.com/profile.php?id=100090952839998&mibextid=ZbWKwL"
+                      target="_blank"
+                      align="center"
+                    >
+                      <i class="fa_fa fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a
+                      class="epmloyer center"
+                      href="https://instagram.com/k_akademiyasi?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+                      target="_blank"
+                      align="center"
+                    >
+                      <i class="fa_fa fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a
+                      class="epmloyer center"
+                      href="https://t.me/k_akademiyasi"
+                      target="_blank"
+                      align="center"
+                    >
+                      <i class="fa_fa fa-brands fa-telegram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <nav class="Nav-boxs widhtAll dflex all">
+              <ul class="dflex" style="color: #fff">
+                <a href="../index.html"><li class="one">BOSH</li></a>
+                <a href="../Jamoa/index.html"><li class="two">Jamoa</li></a>
+                <a href="./index.html"><li class="two">Galereya</li></a>
+                <a href="../manzil/index.html"><li class="two">Manzil</li></a>
+              </ul>
+              <button class="btn button1">Bog'lanish</button>
+            </nav>
+
+            <aside class="all asidebox" align="center" style="left: 29%">
+              <h2>KOMPYUTER AKADEMiYASI</h2>
+              <h1 style="font-size: 70px">Bizning manzil</h1>
+            </aside>
+
+            <div class="toggle hidden">
+              <i class="fa_fa fa-solid fa-bars"></i>
+            </div>
+            <nav class="responsiv all">
+              <ul class="" style="color: #fff">
+                <a href="../index.html"><li class="one">BOSH</li></a>
+                <a href="../Jamoa/index.html"><li class="two">Jamoa</li></a>
+                <a href="./index.html"><li class="two">Galereya</li></a>
+                <a href="../manzil/index.html"><li class="two">Manzil</li></a>
+              </ul>
+              <button class="btn button_btn1 widhtAll button1">
+                Bog'lanish
+              </button>
+            </nav>
+          </div>
+        </div>
+
+        <main>
+          <div class="" style="margin-bottom: 30vw">
+            <div class="all">
+              <span align="center">
+                <h4>KOMPYUTER AKADEMiYASI</h4>
+                <h3 style="color: var(--mnclr)">Manzil</h3>
+              </span>
+
+              <div style="display: flex; justify-content: space-around">
+                <div class="malumot" width="30%" height="400px">
+                  <h4 style="font-size: 27px; color: var(--mnclr)">
+                    Kompyuter Akademiyasi <br />
+                    malumotlari
+                  </h4>
+                  <p style="color: var(--footer-color)">Manzil:</p>
+                  <p style="color: var(--footer-color)">
+                    Buxoro Viloyati Vobkent tumani Ziyo <br />
+                    ko'chasi 7-uy. Mo'ljal:23-Maktab
+                  </p>
+                  <p style="color: var(--footer-color)">Telefon:</p>
+                  <p style="color: var(--footer-color)">+998 (99) 072-08-08</p>
+                </div>
+                <div class="manzilmap" style="background: #ded0eb">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d6110.790070259683!2d64.5256198!3d40.0219588!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3f507367d8b5dc0b%3A0xe203cf015061e957!2sKompyuter%20Akademiyasi%20%D0%97%D0%B8%D1%91%20200500%2C%20Vobkent!3m2!1d40.0219588!2d64.5256198!5e0!3m2!1sru!2s!4v1708686462784!5m2!1sru!2s"
+                    style="border: 0"
+                    width="100%"
+                    height="400px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart__boxs widhtAll">
+            <div class="abaut dflex">
+              <div class="Go_boxs Go_Form all">
+                <form action="">
+                  <div class="login_box_form all">
+                    <span>
+                      <h3>Xabar qoldiring</h3>
+                    </span>
+                    <h6>F. I. O</h6>
+                    <h4>Name *</h4>
+                    <div class="user-box">
+                      <input
+                        type="text"
+                        name=""
+                        id="ism"
+                        minlength="1"
+                        maxlength="15"
+                        required
+                      />
+                      <!-- required -->
+                      <label for="ism">Имя</label>
+                      <span id="error"></span>
+                    </div>
+                    <div class="user-box">
+                      <input
+                        type="text"
+                        name=""
+                        id="familya"
+                        minlength="1"
+                        maxlength="15"
+                        required
+                      />
+                      <label for="familya">Фамилия</label>
+                      <span id="error"></span>
+                    </div>
+
+                    <div class="user-box">
+                      <input
+                        type="email"
+                        name=""
+                        id="akaunt"
+                        minlength="1"
+                        required
+                      />
+                      <label for="akaunt">Email</label>
+                      <span id="error"></span>
+                    </div>
+                    <div class="user-box">
+                      <textarea
+                        type="text"
+                        name=""
+                        id="fikr"
+                        minlength="1"
+                        maxlength="150"
+                        rows="10"
+                        required
+                      ></textarea>
+                      <label class="fikr" for="fikr">Текст</label>
+                      <span id="error"></span>
+                    </div>
+                    <button type="submit" class="btn button_form">
+                      Jo'natish
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="Go_boxs dflex center">
+                <div class="secret">
+                  <span>
+                    <h4>KOMPYUTER AKADEMiYASI</h4>
+                    <h3>Ko`p beriladigan savollar</h3>
+                  </span>
+                  <div class="ever secretevar all">
+                    <div class="dflex">
+                      <h5>
+                        Ingiliz tili, yoki matematikani <br />
+                        bilmayman. O’rgana olamanmi?
+                      </h5>
+                      <i
+                        id="planet"
+                        class="fa-sharp fa-solid fa-play"
+                        style="color: var(--bcg-cfa); font-size: 77%"
+                      ></i>
+                    </div>
+                    <p class="library hidden" style="color: var(--finaly-cl)">
+                      <!-- class="hidden" -->
+                      Dasturchi bo’lish uchun – dasturlashni o’rganish kerak.
+                      <br />
+                      Boshqa fanlarning a’loqasi yo’q. Lekin, dasturlash olamida
+                      <br />
+                      juda ko’p miflar bor. Ular dasturlashni o’rganmoqchi
+                      <br />
+                      bo’lganlarni cho’chitib turadi.
+                    </p>
+                  </div>
+                  <div class="ever all">
+                    <div class="dflex">
+                      <h5>Telefondan ham o’rgansa bo’ladimi?</h5>
+                      <i
+                        id="instead"
+                        class="fa-sharp fa-solid fa-play"
+                        style="color: var(--bcg-cfa); font-size: 77%"
+                      ></i>
+                    </div>
+
+                    <p class="report hidden" style="color: var(--finaly-cl)">
+                      <!-- class="hidden" -->
+                      Boshida telefon ham bo’ladi. Lekin, umumiy dasturlash
+                      <br />
+                      teoriyasini o’rgangach, keyingi qadamga o’taman desangiz
+                      <br />
+                      kompyuter, yoki noutbuk olishingiz kerak bo’ladi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="../images/kompyuter.png"
+          ></div>
+          <div
+            class="parallax-window"
+            data-parallax="scroll"
+            data-image-src="../images/mocup-Zdaniye.png"
+          ></div>
+          <footer width="100%">
+            <div class="header widhtAll">
+              <div class="dflex header__container widhtAll all">
+                <div class="log">
+                  <a class="site-logo" href="./index.html">
+                    <p style="color: var(--footer-color)">
+                      2024 Kompyuter Akademiyasi
+                    </p>
+                  </a>
+                </div>
+
+                <div class="maria">
+                  <p align="center" style="color: var(--footer-color)">
+                    Tel: +998 (99) 072-08-08
+                  </p>
+                </div>
+
+                <div class="basic">
+                  <div class="icon center dflex">
+                    <a
+                      class="epmloyer center"
+                      style="background: var(--footer-bgcolor)"
+                      href="https://www.facebook.com/profile.php?id=100090952839998&mibextid=ZbWKwL"
+                      target="_blank"
+                      align="center"
+                    >
+                      <i class="fa_fa fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a
+                      class="epmloyer center"
+                      style="background: var(--footer-bgcolor)"
+                      href="https://instagram.com/k_akademiyasi?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+                      target="_blank"
+                      align="center"
+                    >
+                      <i class="fa_fa fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a
+                      class="epmloyer center"
+                      style="background: var(--footer-bgcolor)"
+                      href="https://t.me/k_akademiyasi"
+                      target="_blank"
+                      align="center"
+                    >
+                      <i class="fa_fa fa-brands fa-telegram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/typed.js"></script>
+  </body>
+</html>
+<!--  -->
