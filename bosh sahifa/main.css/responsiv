@@ -1,0 +1,169 @@
+@media (max-width: 1200px) {
+  body .cotainer {
+    max-width: 100%;
+  }
+
+  .header__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+  }
+
+  .Nav-boxs {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .responsiv {
+    display: none;
+  }
+
+  .Kurslar .mix__boxs {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 992px) {
+  body .cotainer {
+    max-width: 99%;
+    margin: 0px auto;
+    background-color: rgb(26, 247, 173);
+  }
+
+  .cotainer .wrapper .box_header {
+    max-width: 100%;
+    aspect-ratio: 0.3;
+    background-size: cover;
+    background-position: top right;
+  }
+
+  .box_header .header_naw {
+    max-width: 100%;
+    aspect-ratio: 0.2;
+  }
+
+  .header__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+  }
+
+  .header__container .maria {
+    display: none;
+  }
+
+  .header__container .log,
+  .header__container .basic {
+    width: 40%;
+  }
+
+  .basic .icon .epmloyer {
+    width: 33px;
+    height: 20px;
+    padding: 3px;
+  }
+
+  .Nav-boxs {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .responsiv {
+    display: none;
+  }
+}
+
+@media (max-width: 794px) {
+  .mix__boxs .prefix {
+    width: 70%;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 429px) {
+  .mix__boxs .prefix {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  body .cotainer {
+    max-width: 99%;
+    margin: 0px auto;
+  }
+
+  .box_header .header_naw {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .basic .icon .epmloyer {
+    width: 33px;
+    height: 21px;
+    padding: 1px;
+  }
+
+  .cotainer .wrapper .box_header {
+    max-width: 100%;
+    height: 136vh;
+    background-size: cover;
+    background-position: top right;
+  }
+
+  .header__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+  }
+
+  .Nav-boxs {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .responsiv {
+    display: none;
+    width: 100%;
+  }
+
+  aside .button3 {
+    width: 40vw;
+    aspect-ratio: 5/4;
+    background-color: bisque;
+    color: rgb(9, 9, 97);
+  }
+}
+
+@media (max-width: 504px), (max-width: 480px) {
+  main .Kurslar {
+    width: 100%;
+    aspect-ratio: 9/900vw;
+    /* background-color: chocolate; */
+  }
+
+  .reach {
+    /* bottom: -0%; */
+    margin-top: 200vh;
+    /* background-color: rgb(138, 34, 230); */
+  }
+}
+
+@media (max-width: 420px) {
+  main .Kurslar {
+    aspect-ratio: 9/1000vw;
+    /* background-color: rgb(47, 192, 112); */
+  }
+}
+@media (max-width: 804px) {
+  .chart__boxs .about {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  /* .Go_boxs{} */
+}
